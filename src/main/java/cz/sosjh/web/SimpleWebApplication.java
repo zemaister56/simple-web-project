@@ -17,13 +17,13 @@ public class SimpleWebApplication {
 
     private static void initRepository() {
         BlogRepository.add(new BlogEntry(
-                "Title #1",
+                "Title: entry #1",
                 "Author #1",
                 LocalDateTime.now().minusDays(2),
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         ));
         BlogRepository.add(new BlogEntry(
-                "Title #2",
+                "Title: entry #2",
                 "Author #2",
                 LocalDateTime.now().minusDays(1),
                 "Duis vitae arcu sed tellus efficitur placerat in sed tellus."
